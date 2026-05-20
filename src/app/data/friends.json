@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Ariana Mitchell",
+    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+    "email": "ariana.mitchell@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met during computer science classes at university. We still exchange book recommendations and go hiking during winter breaks.",
+    "goal": 14,
+    "next_due_date": "2026-05-16"
+  },
+  {
+    "id": 2,
+    "name": "Daniel Kim",
+    "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+    "email": "daniel.kim@outlook.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["work", "basketball"],
+    "bio": "Former coworker from a startup internship. Usually catch up over basketball games and tech discussions.",
+    "goal": 10,
+    "next_due_date": "2026-05-24"
+  },
+  {
+    "id": 3,
+    "name": "Sofia Ramirez",
+    "picture": "https://images.unsplash.com/photo-1517841905240-472988babdf9",
+    "email": "sofia.ramirez@yahoo.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["travel", "photography"],
+    "bio": "We met during a volunteer trip in Nepal. Sofia loves street photography and sends amazing travel stories.",
+    "goal": 12,
+    "next_due_date": "2026-05-21"
+  },
+  {
+    "id": 4,
+    "name": "Marcus Bennett",
+    "picture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d",
+    "email": "marcus.bennett@gmail.com",
+    "days_since_contact": 27,
+    "status": "overdue",
+    "tags": ["gym", "neighbor"],
+    "bio": "Used to train together at the local gym before he moved to another city for work. Still shares fitness tips regularly.",
+    "goal": 21,
+    "next_due_date": "2026-05-10"
+  },
+  {
+    "id": 5,
+    "name": "Priya Shah",
+    "picture": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df",
+    "email": "priya.shah@icloud.com",
+    "days_since_contact": 4,
+    "status": "on-track",
+    "tags": ["design", "coffee buddy"],
+    "bio": "Met at a UI/UX workshop in Dhaka. We often exchange design feedback and try new coffee shops together.",
+    "goal": 14,
+    "next_due_date": "2026-05-30"
+  },
+  {
+    "id": 6,
+    "name": "Ethan Walker",
+    "picture": "https://images.unsplash.com/photo-1504257432389-52343af06ae3",
+    "email": "ethan.walker@protonmail.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "tags": ["gaming", "online friend"],
+    "bio": "Connected through an online gaming community five years ago. We still play co-op games every few weekends.",
+    "goal": 15,
+    "next_due_date": "2026-05-22"
+  },
+  {
+    "id": 7,
+    "name": "Nadia Hassan",
+    "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+    "email": "nadia.hassan@gmail.com",
+    "days_since_contact": 33,
+    "status": "overdue",
+    "tags": ["family friend", "mentor"],
+    "bio": "Family friend who helped me prepare for internship interviews. Always gives thoughtful career advice.",
+    "goal": 30,
+    "next_due_date": "2026-05-01"
+  },
+  {
+    "id": 8,
+    "name": "Leo Martins",
+    "picture": "https://images.unsplash.com/photo-1504593811423-6dd665756598",
+    "email": "leo.martins@hotmail.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["music", "bandmate"],
+    "bio": "Played acoustic guitar together at local university events. Leo now produces indie music and shares demos frequently.",
+    "goal": 14,
+    "next_due_date": "2026-05-26"
+  },
+  {
+    "id": 9,
+    "name": "Hassan Rahman",
+    "picture": "https://images.unsplash.com/photo-1527980965255-d3b416303d12",
+    "email": "hassan.rahman@gmail.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["college", "coding partner"],
+    "bio": "Met during first-year programming lab. We built small React projects together and still review each other’s code occasionally.",
+    "goal": 14,
+    "next_due_date": "2026-05-25"
+  },
+  {
+    "id": 10,
+    "name": "Emily Johnson",
+    "picture": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe",
+    "email": "emily.johnson@yahoo.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["school", "book club"],
+    "bio": "High school friend who shares a love for novels and creative writing. We exchange book reviews every week.",
+    "goal": 14,
+    "next_due_date": "2026-05-28"
+  }
+]

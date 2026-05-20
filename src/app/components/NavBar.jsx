@@ -13,9 +13,9 @@ const NavBar = () => {
                     </Link>
                 </div>
                 <div className="navbar-end gap-4">
-                    <Link href="/" className={pathName === '/' ? " btn bg-[#244D2F]" : 'btn'}>Home</Link>
-                    <Link href="/timeline" className={pathName === '/timeline' ? " btn bg-[#244D2F]" : 'btn'}>Timeline</Link>
-                    <Link href="/stats" className={pathName === '/stats' ? " btn bg-[#244D2F]" : 'btn'}>Stats</Link>
+                    <Link href="/" className={pathName === '/' ? "btn bg-[#244D2F] text-white" : 'btn '}>Home</Link>
+                    <Link href="/timeline" className={pathName === '/timeline' ? "btn bg-[#244D2F] text-white" : 'btn'}>Timeline</Link>
+                    <Link href="/stats" className={pathName === '/stats' ? "btn bg-[#244D2F] text-white" : 'btn'}>Stats</Link>
                 </div>
             </div>
     );
