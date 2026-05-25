@@ -1,3 +1,4 @@
+import ConnectionButton from "@/app/components/ConnectionButton";
 import friends from "../../data/friends.json";
 import Image from "next/image";
 
@@ -24,7 +25,6 @@ const DetailsPage = async ({ params }) => {
                         <div className="flex">
                             {
                                 result.tags.map((t, ind) => (
-                                    // eslint-disable-next-line react/jsx-key
                                     <p key={ind} className='rounded-2xl bg-[#CBFADB] p-1 text-sm text-green-950'>{t}</p>
                                 ))
                             }
@@ -59,11 +59,12 @@ const DetailsPage = async ({ params }) => {
                         <div className="flex justify-between items-center">
                             <p className="font-bold text-[#244D2F]">Quick Check-In</p>
                         </div>
-                        <div className="flex space-x-1">
-                            <button className="btn btn-soft h-32 w-1/3 flex flex-col text-2xl"><span><Image src='/call.png' width={30} height={10} alt="call icon"></Image></span>Call</button>
+                        {/* <div className="flex space-x-1">
+                            <button  className="btn btn-soft h-32 w-1/3 flex flex-col text-2xl"><span><Image src='/call.png' width={30} height={10} alt="call icon"></Image></span>Call</button>
                             <button className="btn btn-soft h-32 w-1/3 flex flex-col text-2xl"><span><Image src='/text.png' width={30} height={10} alt="call icon"></Image></span>Text</button>
                             <button className="btn btn-soft h-32 w-1/3 flex flex-col text-2xl"><span><Image src='/video.png' width={30} height={10} alt="call icon"></Image></span>Video</button>
-                        </div>
+                        </div> */}
+                        <ConnectionButton result ={result.name}></ConnectionButton>
                     </div>
                 </div>
             </div>

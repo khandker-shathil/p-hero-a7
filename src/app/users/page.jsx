@@ -1,4 +1,3 @@
-import Link from "next/link";
 import friends from "../data/friends.json";
 import Card from '../ui/Card';
 
