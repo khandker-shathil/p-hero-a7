@@ -9,13 +9,13 @@ const UsersPage = () => {
     const {actionWhat} = useContext(userActionContext); 
 
     return (
-        <div>
-            <div className='flex flex-col items-center justify-center gap-10 my-20'>
-                <h1 className='text-5xl'>Friends to keep close in your life.</h1>
-                <p>Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.</p>
+        <div className="px-4 sm:px-6 lg:px-10">
+            <div className='flex flex-col items-center justify-center gap-5 sm:gap-8 my-12 sm:my-20 text-center'>
+                <h1 className='text-3xl sm:text-4xl lg:text-5xl'>Friends to keep close in your life.</h1>
+                <p className='max-w-3xl text-gray-600'>Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.</p>
                 <button className="btn btn-neutral bg-[#244D2F]">+ Add New Friends</button>
             </div>
-            <div className='grid grid-cols-4 gap-10 mx-10'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-10'>
                 <div className="card bg-white text-primary-content shadow-lg">
                     <div className="flex text-[#244D3F] card-body justify-center items-center">
                         <h2 className="card-title">{friends.length}</h2>
@@ -42,7 +42,7 @@ const UsersPage = () => {
                 </div>
             </div>
             <hr className=" container mx-auto my-10" />
-            <div className='grid grid-cols-4 mx-10 my-10 gap-5'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 my-10 gap-5'>
                 {
                     friends.map((friends, index) => (
                         <Card key={index} friends = {friends}></Card>
