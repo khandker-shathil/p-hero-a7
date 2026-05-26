@@ -6,8 +6,8 @@ A modern friendship management web application built with React/Next.js that hel
 
 ## Live Demo
 
--  **Live Site:** [Add Your Live Link Here]
--  **GitHub Repo:** [Add Your GitHub Repository Link Here]
+-  **Live Site:** https://keenkeepers-phero-a7.netlify.app/
+-  **GitHub Repo:** https://github.com/khandker-shathil/p-hero-a7
 
 ---
 
@@ -46,32 +46,6 @@ The goal of this project is to simulate a real-world relationship tracking syste
 
 ---
 
-## Project Structure
-src/
-│
-├── components/
-│   ├── Navbar
-│   ├── Footer
-│   ├── FriendCard
-│   ├── LoadingSpinner
-│
-├── pages/
-│   ├── Home
-│   ├── FriendDetails
-│   ├── Timeline
-│   ├── Stats
-│   ├── NotFound
-│
-├── context/
-│   ├── ActionContext
-│
-├── data/
-│   ├── friends.json
-│
-└── App.jsx / App.tsx
-
----
-
 ## Friend Data Structure
 
 ## Code
@@ -92,8 +66,9 @@ Each friend object follows this format:
   "next_due_date": "2025-07-20"
 }
 ````
-
+---
 ## 🏠 Pages Overview
+---
 
 ## 🏡 Home Page
 
@@ -101,6 +76,7 @@ Each friend object follows this format:
 * “Add Friend” button with icon
 * Summary cards
 * Grid layout of all friends
+----
 
 ## 👤 Friend Details Page
 
@@ -112,21 +88,25 @@ Each friend object follows this format:
     * 📞 Call
     * 💬 Text
     * 🎥 Video
+---
 
 ## 📜 Timeline Page
 
 * Logs all interactions
 * Shows date, icon, and title
 * Filter by Call / Text / Video
+---
 
 ## 📊 Stats Page
 
 * Friendship analytics dashboard
 * Pie chart showing interaction distribution
+---
 
 ## ❌ 404 Page
 
 * Custom not-found page for invalid routes
+---
 
 ## ⚡ Interaction System
 
@@ -135,6 +115,7 @@ When a user clicks:
 * 📞 Call
 * 💬 Text
 * 🎥 Video
+---
 
 ## The app will:
 
@@ -143,6 +124,7 @@ When a user clicks:
 * Add a title like:
     * “Call with Alex Johnson”
 * Show a toast notification
+---
 
 ## Installation Guide 
 ````
