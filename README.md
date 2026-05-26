@@ -1,27 +1,27 @@
-# 👥 KeenKeeper — Keep Your Friendships Alive
+# KeenKeeper
 
 A modern friendship management web application built with React/Next.js that helps users maintain meaningful relationships by tracking interactions, reminders, and communication history with friends.
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
-- 🔗 **Live Site:** [Add Your Live Link Here]
-- 🗂️ **GitHub Repo:** [Add Your GitHub Repository Link Here]
+-  **Live Site:** [Add Your Live Link Here]
+-  **GitHub Repo:** [Add Your GitHub Repository Link Here]
 
 ---
 
-## 📌 About the Project
+##  About the Project
 
 **KeenKeeper** is a responsive web app designed to help users stay connected with friends. It tracks communication frequency, logs interactions (Call, Text, Video), and visualizes friendship activity through a timeline and analytics dashboard.
 
-The goal of this project is to simulate a real-world relationship tracking system with a clean UI and interactive features.
+The goal of this project is to simulate a real-world relationship tracking system with a clean UI and interactive features. This project is a part of assignment for an online course called Programming Hero. 
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🧩 Core Features
+### Core Features
 - Fully responsive UI (mobile, tablet, desktop)
 - Dynamic friend cards loaded from JSON data
 - Friend details page with full profile view
@@ -32,27 +32,21 @@ The goal of this project is to simulate a real-world relationship tracking syste
 - Custom 404 page for invalid routes
 - Active navigation highlighting
 
-### 📊 Challenge Features
-- 📈 Pie chart analytics using Recharts
-- 🔍 Timeline filtering (Call / Text / Video)
-- 🧭 Fully structured navigation system
-- 📄 Professional README documentation
+---
+
+## Tech Stack
+
+- React.js / Next.js
+- React Router DOM / App Router
+- Tailwind CSS
+- DaisyUI / UI Component Library
+- Recharts (Data Visualization)
+- React Toastify / Sonner (Notifications)
+- Netlify (Deployment)
 
 ---
 
-## 🛠️ Tech Stack
-
-- ⚛️ React.js / Next.js
-- 🧭 React Router DOM / App Router
-- 🎨 Tailwind CSS
-- 🧩 DaisyUI / UI Component Library
-- 📊 Recharts (Data Visualization)
-- 🔔 React Toastify / Sonner (Notifications)
-- ☁️ Vercel / Netlify (Deployment)
-
----
-
-## 📂 Project Structure
+## Project Structure
 src/
 │
 ├── components/
@@ -78,7 +72,7 @@ src/
 
 ---
 
-## 🧑‍🤝‍🧑 Friend Data Structure
+## Friend Data Structure
 
 ## Code
 
@@ -97,6 +91,7 @@ Each friend object follows this format:
   "goal": 14,
   "next_due_date": "2025-07-20"
 }
+````
 
 ## 🏠 Pages Overview
 
@@ -149,23 +144,10 @@ When a user clicks:
     * “Call with Alex Johnson”
 * Show a toast notification
 
-## 📱 Responsive Design
-
-Fully optimized for:
-
-* 📱 Mobile devices
-* 💻 Tablets
-* 🖥️ Desktop screens
-
 ## Installation Guide 
-
-git clone https://github.com/your-username/keenkeeper.git
+````
+git clone https://github.com/khandker-shathil/p-hero-a7.git
 cd keenkeeper
 npm install
 npm run dev
-
-🚀 Deployment
-
-## This project is deployed using:
-
-* Netlify
+````
