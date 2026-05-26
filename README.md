@@ -1,36 +1,171 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 👥 KeenKeeper — Keep Your Friendships Alive
 
-## Getting Started
+A modern friendship management web application built with React/Next.js that helps users maintain meaningful relationships by tracking interactions, reminders, and communication history with friends.
 
-First, run the development server:
+---
 
-```bash
+## 🌐 Live Demo
+
+- 🔗 **Live Site:** [Add Your Live Link Here]
+- 🗂️ **GitHub Repo:** [Add Your GitHub Repository Link Here]
+
+---
+
+## 📌 About the Project
+
+**KeenKeeper** is a responsive web app designed to help users stay connected with friends. It tracks communication frequency, logs interactions (Call, Text, Video), and visualizes friendship activity through a timeline and analytics dashboard.
+
+The goal of this project is to simulate a real-world relationship tracking system with a clean UI and interactive features.
+
+---
+
+## 🚀 Features
+
+### 🧩 Core Features
+- Fully responsive UI (mobile, tablet, desktop)
+- Dynamic friend cards loaded from JSON data
+- Friend details page with full profile view
+- Quick interaction system (Call / Text / Video)
+- Timeline tracking for all interactions
+- Toast notifications on user actions
+- Loading spinner while fetching data
+- Custom 404 page for invalid routes
+- Active navigation highlighting
+
+### 📊 Challenge Features
+- 📈 Pie chart analytics using Recharts
+- 🔍 Timeline filtering (Call / Text / Video)
+- 🧭 Fully structured navigation system
+- 📄 Professional README documentation
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React.js / Next.js
+- 🧭 React Router DOM / App Router
+- 🎨 Tailwind CSS
+- 🧩 DaisyUI / UI Component Library
+- 📊 Recharts (Data Visualization)
+- 🔔 React Toastify / Sonner (Notifications)
+- ☁️ Vercel / Netlify (Deployment)
+
+---
+
+## 📂 Project Structure
+src/
+│
+├── components/
+│   ├── Navbar
+│   ├── Footer
+│   ├── FriendCard
+│   ├── LoadingSpinner
+│
+├── pages/
+│   ├── Home
+│   ├── FriendDetails
+│   ├── Timeline
+│   ├── Stats
+│   ├── NotFound
+│
+├── context/
+│   ├── ActionContext
+│
+├── data/
+│   ├── friends.json
+│
+└── App.jsx / App.tsx
+
+---
+
+## 🧑‍🤝‍🧑 Friend Data Structure
+
+## Code
+
+Each friend object follows this format:
+
+```json
+{
+  "id": 1,
+  "name": "John Doe",
+  "picture": "https://example.com/photo.jpg",
+  "email": "john@example.com",
+  "days_since_contact": 12,
+  "status": "overdue",
+  "tags": ["college", "close friend"],
+  "bio": "Met in university. Love hiking together.",
+  "goal": 14,
+  "next_due_date": "2025-07-20"
+}
+
+## 🏠 Pages Overview
+
+## 🏡 Home Page
+
+* Hero banner with title & subtitle
+* “Add Friend” button with icon
+* Summary cards
+* Grid layout of all friends
+
+## 👤 Friend Details Page
+
+* Friend profile card (image, name, email, tags, bio, status)
+* Action buttons (Snooze, Archive, Delete)
+* Stats cards (Days since contact, Goal, Next due date)
+* Relationship goal section
+* Quick check-in buttons:
+    * 📞 Call
+    * 💬 Text
+    * 🎥 Video
+
+## 📜 Timeline Page
+
+* Logs all interactions
+* Shows date, icon, and title
+* Filter by Call / Text / Video
+
+## 📊 Stats Page
+
+* Friendship analytics dashboard
+* Pie chart showing interaction distribution
+
+## ❌ 404 Page
+
+* Custom not-found page for invalid routes
+
+## ⚡ Interaction System
+
+When a user clicks:
+
+* 📞 Call
+* 💬 Text
+* 🎥 Video
+
+## The app will:
+
+* Create a timeline entry
+* Save current date
+* Add a title like:
+    * “Call with Alex Johnson”
+* Show a toast notification
+
+## 📱 Responsive Design
+
+Fully optimized for:
+
+* 📱 Mobile devices
+* 💻 Tablets
+* 🖥️ Desktop screens
+
+## Installation Guide 
+
+git clone https://github.com/your-username/keenkeeper.git
+cd keenkeeper
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🚀 Deployment
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## This project is deployed using:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Netlify
