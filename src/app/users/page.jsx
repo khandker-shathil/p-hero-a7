@@ -1,7 +1,13 @@
+'use client'
+import { useContext } from "react";
 import friends from "../data/friends.json";
 import Card from '../ui/Card';
+import { userActionContext } from "../context/ActionContext";
 
 const UsersPage = () => {
+
+    const {actionWhat} = useContext(userActionContext); 
+
     return (
         <div>
             <div className='flex flex-col items-center justify-center gap-10 my-20'>
@@ -30,12 +36,12 @@ const UsersPage = () => {
                 </div>
                 <div className="card bg-white text-primary-content shadow-lg">
                     <div className="flex text-[#244D3F] card-body justify-center items-center">
-                        <h2 className="card-title">{friends.length}</h2>
+                        <h2 className="card-title">{actionWhat.length}</h2>
                         <p className='text-[#244D3F]/80'>Interaction This Month</p>
                     </div>
                 </div>
             </div>
-            <hr className="border-gray-100 mx-10 my-10" />
+            <hr className=" container mx-auto my-10" />
             <div className='grid grid-cols-4 mx-10 my-10 gap-5'>
                 {
                     friends.map((friends, index) => (

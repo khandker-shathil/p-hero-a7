@@ -1,7 +1,7 @@
 'use client'
 import { createContext, useState } from 'react';
 import React from 'react';
-import { toast } from 'react-toastify';
+import { Slide, toast } from 'react-toastify';
 
 export const userActionContext = createContext()
 
@@ -11,7 +11,7 @@ const ActionContext = ({children}) => {
             const now = new Date ();
             const formatted = now.toLocaleDateString("en-GB"); // dd/mm/yyyy
             setActionWhat(prev => [...prev, {result, action, formatted}]) 
-            toast.success(action.toUpperCase() + " " + result + " " + "Inserted")
+            toast.success(action.toUpperCase() + " " + result + " " + "Inserted");
         }
     const data = {
         actionWhat,
